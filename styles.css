@@ -1,0 +1,114 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    background-size:cover ; 
+}
+.container{
+
+    display:grid;
+    justify-content: center;
+    align-items:baseline;
+    margin: auto;
+}
+.cont1{
+    display:grid;
+    justify-content: center;
+    align-items:baseline;
+    margin: auto;
+}
+.whole{
+    margin:15%;
+    background-color:burlywood;
+   
+}
+.wholemenu>div:first-child{
+    margin-bottom:-3%;
+}
+.line{
+    height: 5px;
+    background: brown;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.coffee{
+    display:grid;
+    justify-content: center;
+    align-items:baseline;
+    margin: auto;
+    font-family: serif;
+    font-size: larger;
+}
+.logo{
+    display:grid;
+    justify-content: center;
+    
+}
+.wrap{
+   display: contents;
+}
+.wrap>div:first-child{
+    margin-bottom: -28px;
+}
+.menu{
+ font-size: large;
+ font-family: sans-serif;
+ margin: 20px;
+display: flex;
+}
+.menu>div:first-child{
+padding-right: 340px;
+}
+
+.menu1{
+ font-size: large;
+ font-family: sans-serif;
+ margin: 20px;
+display: flex;
+}
+.menu1>div:first-child{
+padding-right: 320px;
+}
+a{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+  /* // transition: color 2s;   */
+   color: black;
+}
+a:hover{
+    color: brown;
+}
+
+footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer:hover{
+   transition: color 2s;
+   color:maroon;
+   animation-duration: 4s;
+   animation-delay: 1s;
+   animation-name: color;
+}
+@keyframes color{
+        0%{color: brown;}
+        10%{color: red;}
+        20%{color: yellow;}
+        30%{color: orange;}
+        40%{color: olive;} 
+        50%{color:blue}  
+        60%{color:violet}  
+        70%{color:indigo}  
+        80%{color:green}  
+        90%{color:cadetblue}
+        100%{color:darkred}
+
+}
