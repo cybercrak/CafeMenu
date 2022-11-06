@@ -1,2 +1,2 @@
 # CafeMenu
-A trial project usinh HTML &amp; CSS
+A trial project using HTML & CSS
